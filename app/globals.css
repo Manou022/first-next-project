@@ -1,0 +1,8 @@
+:root {
+  --color-principal: #09aec4ae;
+}
+
+body,
+html {
+  font-size: 15px;
+}

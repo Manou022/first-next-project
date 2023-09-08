@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 100vh;
+  width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: #f0f0f0;
+  color: var(--color-principal);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: white;
+  padding: 4rem;
+  border-radius: 2rem;
+}
+
+.container form h1 {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.input {
+  display: flex;
+  gap: 0.75rem;
+  flex-direction: column;
+}
+.input input {
+  padding: 0.5rem;
+}
+.submit {
+  padding: 1rem 0;
+}
+.submit button {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 1.1rem;
+  background: var(--color-principal);
+  border: 1px solid var(--color-principal);
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+}
+
+.forgot {
+  font-size: 0.9rem;
+  text-align: right;
+  width: 100%;
+  line-height: 0;
+}

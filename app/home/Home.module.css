@@ -1,0 +1,12 @@
+.login,
+.register {
+  color: var(--color-principal);
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0 2rem;
+  cursor: pointer;
+}
+.login:hover,
+.register:hover {
+  text-decoration: underline;
+}
